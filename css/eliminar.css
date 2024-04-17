@@ -694,7 +694,9 @@ display: block;
     width: 2vi;
     height: 2vi;
     margin-top: 0.5vi;
+    
 }
+
 .linea2{
     position: absolute;
     top: 22.5vi;
@@ -1042,16 +1044,16 @@ display: block;
     }
     #cuadroSobrepuesto1{
         top: 50vi;
-        left: 13vi;
+        left: 18vi;
     }
     #contenidoCuadro1{
-        width: 77vi;
+        width: 73vi;
         height: 73vi;
         border-radius: 1vi;
     }
     .deseas{
         font-size: 7vi;
-        left: 0.5vi;
+        left: 1vi;
         top: 15vi;
         width: 80vi;
     }
