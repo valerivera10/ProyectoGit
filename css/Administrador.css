@@ -11,7 +11,7 @@
     left: 29vw;
     border-radius: 3vi;
     opacity: 0;
-    animation: blancox 4s forwards;
+    animation: blancox 4s ;
 }
 .logo{
     position:absolute;
@@ -62,7 +62,7 @@
 
 .kario1{
     position: absolute;
-    animation: kario 2s forwards;
+    animation: kario 2s;
     animation-delay: 4s;
     opacity: 0;
     top: 35vh;
@@ -82,43 +82,44 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 430px) {
 
     .kario1{
-        top: 38vh;
-        left: 40vw;
-        width: 25vi;
+        left: 30vi;
+        width: 40vi;
+    
     }
     .margenBlanca2{
-        width: 60vi;
-        height: 45vi;
-        top: 32vh;
-        left: 20vw;
+        height: 120vi;
+        width: 80vi;
+        top: 20vh;
+        left: 10vw;
+        border-radius: 10vi;
     }
     .logo{
-        top: 1vi;
-        left: 26.01vi;
-        width: 8vw;
+        width: 20vi;
+        left: 30vi;
+        top: 5vi;
     }
     .nuevo{
-        font-size: 3vi;
-        top: 9vi;
-        left: 16.7vi;
+        font-size: 7vi;
+        top: 30vi;
+        left: 10vi;
     }
     .welcome{
-        top: 16vi;
-        left: 23vi;
-        width: 14vw;
+        top: 50vi;
+        left: 24vi;
+        width: 30vw;
     }
     .neimar{
-        font-size: 3vi;
-        top: 28vi;
+        font-size: 7vi;
+        top: 80vi;
         left: 22.6vi;
     }
     .administrador{
-        font-size: 1.3vi;
-        top: 35vi;
-        left: 24.1vi;
+        font-size: 2.5vi;
+        top: 100vi;
+        left: 28.2vi;
     }
 }
 
